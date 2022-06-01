@@ -1,0 +1,79 @@
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.container-fluid{
+   width: 1200px;
+    display: flex;
+   
+}
+.card{
+    width: 300px;
+    /* height: 400px; */
+   
+    cursor: pointer;
+    box-shadow: 5px 4px 10px 10px  gainsboro;
+    margin: 50px auto;
+    transition: 5s;
+}
+
+.bbtn{
+    background-color: #FAD9E6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.cardB{
+    text-align: center;
+}
+.cardB:hover{
+    transform: scale(1.1);
+    
+}
+.bbtn:hover{
+    color: #6B4F4F;
+    font-weight: bold;
+    box-shadow: 4px 5px gray;
+}
+.card:hover{
+    transform: scale(1.1) skew(15deg);
+}
+
+.contain{
+    display: grid;
+   
+   
+}
+.card-B{
+   display: flex;
+   margin: 0 100px 100px;
+}
+.danger-card{
+    height: 300px;
+    
+}
+.card-title-head,
+.card-text-body{
+     color: black;
+}
+.card-samlle{
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 5px 4px 10px 10px  gainsboro;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 15px 0px ;
+    transition: 5s;
+    
+    
+}
+.card-samlle:hover{
+    transform: scale(1.1) skew(-20deg) rotate(360deg);
+}
